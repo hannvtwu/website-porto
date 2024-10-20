@@ -1,0 +1,143 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #555;
+    color: white;
+}
+
+#home h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+#home p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 1.8em;
+}
+
+.project p {
+    font-size: 1.2em;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 5px;
+    width: 80%;
+    max-width: 500px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
